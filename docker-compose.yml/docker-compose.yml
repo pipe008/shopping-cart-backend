@@ -1,0 +1,9 @@
+services:
+  mongo:
+    image: mongo:8
+    container_name: shopping_cart_mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: shopping_cart_db
