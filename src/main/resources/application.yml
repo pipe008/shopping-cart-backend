@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: shopping-cart-backend
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/shopping_cart_db
+
+server:
+  port: 8080
